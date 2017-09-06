@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>O2 :The Search Engine</title>
+    <link href="https://fonts.googleapis.com/css?family=Poiret One" rel="stylesheet">
+
+<style>
+body, html {
+    height: 100%;
+    margin: 0;
+}
+.bg {
+    background-image: url("Assets/Paper2.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header
+{
+    text-align: left;
+    font-size: 40px;
+    padding: 10px;
+    color: #673AB7;
+    font-weight: bold;
+    text-align: left;
+    font-family: 'Poiret One', cursive;
+}
+.search-bar
+{
+    position: absolute;
+    left: 9%;
+    top: 9%;
+}
+
+.input-text
+{
+    font-size: 1em;
+    width: 500px;
+    height: 30px;
+}
+.input-btn
+{
+	height: 30px;
+	font-size: 1em;
+}
+/*
+.pdf{
+    background-color: yellow;
+    width: 20%;
+    position: absolute;
+    left: 15%;
+    height: 55%;
+}
+.rtf{
+    background-color: pink;
+    width: 20%;
+    position: absolute;
+    left: 40%;
+    height: 55%;
+    
+}
+.xml{
+    background-color: orange;
+    width: 20%;
+    position: absolute;
+    left: 65%;
+    height: 55%;
+}
+*/
+.card {
+    /* Add shadows to create the "card" effect */
+    display:inline-block;
+    padding: 2px 16px;
+    margin: 50px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+/* Add some padding inside the card container */
+.container {
+    padding: 2px 16px;
+}
+</style>
+
+
+</head>
+
+<body class="bg">
+    <h2 class="header">O2</h2>
+    
+    <div class="search-bar">   
+        <input type="text" class = "input-text" placeholder="Searching Beyond Depths"/>
+        <button type="button" class=" input-btn" >Search</button>
+    </div>
+
+<div class="container">
+
+	<span class="card">
+	  <img src="Assets/rtf.jpg" alt="Avatar" >
+	  <span class="">
+	    <h4><b>John Doe</b></h4> 
+	    <p>Architect & Engineer</p> 
+	  </span>
+	</span>
+	
+	<span class="card">
+	  <img src="Assets/text.png" alt="Avatar" style="width:300px;height:300px">
+	  <span class="">
+	    <h4><b>John Doe</b></h4> 
+	    <p>Architect & Engineer</p> 
+	  </span>
+	</span>
+
+	<span class="card">
+	  <img src="Assets/zip.png" alt="Avatar" style="width:300px;height:300px">
+	  <span class="">
+	    <h4><b>John Doe</b></h4> 
+	    <p>Architect & Engineer</p> 
+	  </span>
+	</span>
+
+</div>
+	
+<!--  
+style="width:100%"
+    <div class="pdf">
+        <h1> Upload PDF Here </h1>
+    </div>
+    <div class="rtf">
+            <h1> Upload Rich Text Format Here </h1>
+    </div>
+    <div class="xml">
+            <h1> Upload Excel Sheets Here </h1>
+    </div>
+-->
+</body>
+</html>
