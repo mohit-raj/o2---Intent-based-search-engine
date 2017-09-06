@@ -4,6 +4,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+
 <title>Index</title>
 </head>
 <body>
@@ -17,5 +18,17 @@
 			<input type="submit" name="sbmt" value="Search">
 		</form>	
 	</center>
+
+<title>Insert title here</title>
+</head>
+<body>
+	<b>Login Application</b>
+	
+	<form action="login" method="post">
+		UserName : <input type="text" name="uname"><br>
+		Password : <input type="password" name="upass"><br>
+		<input type="submit" name="sbmt" value="Login">
+	</form>	
+
 </body>
 </html>
